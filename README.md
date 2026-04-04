@@ -8,7 +8,7 @@ A full-stack, serverless resume application featuring a live visitor counter, au
 ## 🏗️ Architecture
 This project demonstrates a modern, event-driven architecture on Microsoft Azure.
 
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram](./architecture.png?v=1)
 
 ### 🛠️ The Tech Stack
 * **Frontend:** HTML5, CSS3, and Vanilla JavaScript hosted on **Azure Static Web Apps**.
