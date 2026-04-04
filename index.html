@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Shaabdi — Cloud &amp; Technology Consultant</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="toggle-track"><span class="toggle-thumb"></span></span>
+    <span class="toggle-label" id="toggleLabel">Light</span>
+  </button>
+
+  <header class="hero">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-noise"></div>
+    <div class="hero-inner">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-ping"></span>
+        <span>Technology Enthusiast</span>
+      </div>
+      <h1 class="hero-name">
+        <span class="name-first">Mohamed</span>
+        <span class="name-last">Shaabdi</span>
+      </h1>
+      <p class="hero-role">Cloud &amp; Technology Consultant</p>
+      <p class="hero-sub">Solution Architecture &nbsp;·&nbsp; DevOps &nbsp;·&nbsp; DevSecOps</p>
+      <div class="hero-cta">
+        <a href="mailto:mohamed.shaabdi3@gmail.com" class="btn btn-primary">Get in touch</a>
+        <a href="#projects" class="btn btn-outline">View Work</a>
+      </div>
+      <div class="visitor-chip" style="margin-top: 2rem;">
+        <span class="visitor-label">Visitors</span>
+        <span class="visitor-count" id="visitorCount">—</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-kicker">01</span>
+          <h2 class="section-title">Projects</h2>
+        </header>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-eyebrow">
+              <span class="project-kicker">Cloud Resume Challenge</span>
+            </div>
+            <h3 class="project-title">This Site</h3>
+            <p class="project-desc">Serverless, cloud-native resume built on Azure — Static Website hosting, CDN for HTTPS, Azure Functions for the API, and CosmosDB for persistence.</p>
+            <div class="tag-row project-stack">
+              <span class="tag tag--sm">Azure Storage</span>
+              <span class="tag tag--sm">Azure Functions</span>
+              <span class="tag tag--sm">CosmosDB</span>
+            </div>
+            <a href="https://github.com/moezy2" class="project-link" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-kicker">02</span>
+          <h2 class="section-title">Certifications</h2>
+        </header>
+        <div class="card-stack">
+          <div class="tile-card">
+            <div class="tile-icon">
+              <svg viewBox="0 0 23 23" fill="none" width="34" height="34"><path d="M1 1h10v10H1z" fill="#F25022"/><path d="M12 1h10v10H12z" fill="#7FBA00"/><path d="M1 12h10v10H1z" fill="#00A4EF"/><path d="M12 12h10v10H12z" fill="#FFB900"/></svg>
+            </div>
+            <div class="tile-content">
+              <div class="tile-header">
+                <h3 class="tile-title">Microsoft Azure Fundamentals</h3>
+                <span class="tile-badge verified">Verified</span>
+              </div>
+              <p class="tile-subtitle">AZ-900</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-kicker">03</span>
+          <h2 class="section-title">Experience</h2>
+        </header>
+        <div class="card-stack">
+          <div class="tile-card">
+            <div class="tile-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div class="tile-content">
+              <div class="tile-header">
+                <h3 class="tile-title">Senior Consultant</h3>
+                <span class="tile-badge">Feb 2026 — Present</span>
+              </div>
+              <p class="tile-subtitle">Capgemini</p>
+              <p class="tile-desc">Cloud strategy and solution design for enterprise clients.</p>
+            </div>
+          </div>
+          <div class="tile-card">
+            <div class="tile-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>
+            </div>
+            <div class="tile-content">
+              <div class="tile-header">
+                <h3 class="tile-title">Consultant</h3>
+                <span class="tile-badge">March 2023 — Jan 2026</span>
+              </div>
+              <p class="tile-subtitle">Accenture</p>
+              <p class="tile-desc">Implemented DevOps transformations and cloud migrations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-kicker">04</span>
+          <h2 class="section-title">Education</h2>
+        </header>
+        <div class="card-stack">
+          <div class="tile-card">
+            <div class="tile-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10v6M12 4v16M2 10l10-4 10 4-10 4-10-4Z"/></svg>
+            </div>
+            <div class="tile-content">
+              <div class="tile-header">
+                <h3 class="tile-title">Master of Engineering, Chemical Engineering</h3>
+                <span class="tile-badge">MEng</span>
+              </div>
+              <p class="tile-subtitle">University Degree</p>
+              <p class="tile-desc">Integrated masters focusing on process systems and engineering design.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3 class="footer-logo">Mohamed Shaabdi</h3>
+          <p class="footer-tagline">Cloud &amp; Technology Consultant</p>
+        </div>
+        <div class="footer-group">
+          <p class="footer-label">Navigation</p>
+          <nav class="footer-links">
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+          </nav>
+        </div>
+        <div class="footer-group">
+          <p class="footer-label">Connect</p>
+          <nav class="footer-links">
+            <a href="mailto:mohamed.shaabdi3@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/mohamed-shaabdi" target="_blank">LinkedIn</a>
+            <a href="https://github.com/moezy2" target="_blank">GitHub</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-credits">
+          Built with <span class="azure-text">Azure</span> &bull; 
+          <a href="https://moezy.co.uk" class="footer-site">moezy.co.uk</a>
+        </p>
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="back-to-top" aria-label="Back to top">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
