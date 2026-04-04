@@ -1,8 +1,0 @@
-{
-  "IsEncrypted": false,
-  "Values": {
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "FUNCTIONS_WORKER_RUNTIME": "python",
-    "CosmosDbConnectionString": "DefaultEndpointsProtocol=https;AccountName=cosmo-resume-moezy;AccountKey=LWphBEuObcpcHrZcFSiIAe0umMPwo7eyVPfns0gG9etQwFtDnEn6BAiEd3klDB9MnegkFmoRYrJ5ACDbdUiKFA==;TableEndpoint=https://cosmo-resume-moezy.table.cosmos.azure.com:443/;"
-  }
-}
